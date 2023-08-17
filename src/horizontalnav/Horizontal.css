@@ -1,0 +1,44 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+}
+.container{
+    padding-left: 18rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: solid;
+    border-width: 0.125rem;
+    border-left: None;
+    border-top:  None;
+    border-right: None;
+    border-color: #D9D9D9;
+}
+
+.stepsTitleContainer{
+    margin-left: -10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+link:visited, link:active{
+    color: #000000;
+    text-decoration: none;
+    
+}
+
+.completed{
+    color: #512E70;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    text-decoration: none;
+}
+
+.incomplete{
+    color: #000000;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    text-decoration: none;
+
+}

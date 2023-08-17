@@ -1,0 +1,19 @@
+.profile_container{
+  display: flex;
+  justify-content: right;
+  padding-top: 2.625rem;
+  padding-right: 2.625rem;
+  
+}
+.profile{
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+  border-style: solid;
+  border-color: #512E70;
+  cursor: pointer;
+}
+
+.outlet_container {
+  margin-left: 18rem;
+}

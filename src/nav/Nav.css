@@ -1,0 +1,33 @@
+.sidenav{
+    height: 100vh;
+    width: 8vw;
+    top:0;
+    left: 0;
+    position: fixed;
+    background: linear-gradient(275deg, #512E70 0%, #111F49 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    
+}
+.logo{
+    height: 6rem;
+    width: 8rem;
+}
+.gap{
+    height: 32rem;
+}
+.email{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1.125rem;
+}
+.logout{
+     display: flex;
+     align-items:center;
+     justify-content:space-around;
+     color: #FFFFFF;
+     font-size: 1.125rem;
+     cursor: pointer;
+}

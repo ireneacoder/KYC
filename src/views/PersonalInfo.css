@@ -1,0 +1,17 @@
+.mainContainer{
+    min-height: 10rem;
+}
+
+.personal_front{
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background: none;
+    font-size: 1.225rem;
+    gap: 0.225rem;
+    color: #512E70;
+    bottom: 2rem;
+    right: 4rem;
+}

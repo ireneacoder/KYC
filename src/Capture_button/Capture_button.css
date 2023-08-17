@@ -1,0 +1,29 @@
+
+.verification{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.linee{
+    height: 1.25rem;
+    border: solid;
+    border-width: 0.01rem;
+}
+.capture_btn{
+    border: none;
+    background-color: #B7B7B7;
+    color: #FFFFFF;
+    border-radius: 0.23rem;
+    display: flex;
+    align-items: center;
+    padding-left: 0.825rem;
+    padding-right: 0.825rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    gap: 0.45rem;
+
+}
+
+.completed_capture{
+    background-color: #111F49;
+}

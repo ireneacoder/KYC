@@ -1,0 +1,103 @@
+.mainContainer{
+    min-height: 10rem;
+}
+.greet{
+    margin-top: 1rem;
+    font-size: 2.625rem;
+    color: #512E70;
+}
+.subtext{
+    margin-top: -2.325rem;
+    font-size: 1.5rem;
+    color: #555555;
+}
+.contentbox{
+    height: 46vh;
+    width: 76vw;
+    border: solid;
+    border-width: 0.1em;
+    display: flex;
+    align-items: center;
+    padding: 0.625rem;
+}
+.image_container{
+    height: 46vh;
+    width: 16vw;
+    border: solid;
+    border-width: 0.125rem;
+    background-image: url('image.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.acceptreject{
+    display: flex; 
+    justify-content: center; 
+     position: absolute;
+    bottom: 2rem;
+     gap: 1rem;
+}
+.accept{
+    border: none;
+    border-radius: 0.3rem;
+    padding: 0.235rem;
+    height: 2.625rem;
+    width: 8rem;
+    color: #FFFFFF;
+    background: linear-gradient(44deg, #512E70 0%, #111F49 100%);
+    cursor: pointer;
+
+}
+.reject{
+    border: solid;
+    border-width: 0.08rem;
+    border-radius: 0.3rem;
+    padding: 0.235rem;
+    height: 2.625rem;
+    width: 8rem;
+    background-color: #FFFFFF;
+    color: #512E70;
+    cursor: pointer;
+
+}
+
+.details_capture{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    gap: 1rem;
+}
+.scannedImages{
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+.image1{
+    height: 5rem;
+    width: 5rem;   
+}
+.nextbackbutton{
+    display: flex; 
+    justify-content: center; 
+     position: absolute;
+    bottom: 2rem;
+     right: 4rem;
+     gap: 1rem; 
+}
+.timer_section{
+    margin-top: 0.625rem;
+    margin-right: 3.625vw;
+    display: flex;
+    justify-content: flex-end;
+}
+.front{
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: none;
+    font-size: 1.225rem;
+    gap: 0.225rem;
+    color: #512E70;
+}
+
+
